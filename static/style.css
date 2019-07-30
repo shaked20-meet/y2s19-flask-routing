@@ -1,3 +1,32 @@
+@keyframes animation_1{
+	from {background-color: #80d4ff;}
+  to {background-color: #0052cc;}
+}
+
 body {
-    background: #fcfcfc;
+    background: red;
+    margin: 0px;
+    animation-name: animation_1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#div1{
+	background: #9966ff;
+	padding: 20px;
+	text-align: center;
+	border-style: dotted;
+	border-width: 10px;
+}
+#div2{
+	background: #ff4d88;
+	width: 200px;
+	position: relative;
+	left: 800px;
+	top: 200px; 
+	text-align: center;
+	font-size: 25px;
+	border-style: dotted;
+	border-width: 10px;
 }
